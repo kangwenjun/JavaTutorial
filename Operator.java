@@ -5,5 +5,9 @@ public class Operator {
 		String str = new String();
 		boolean bRet = str instanceof String;
 		System.out.println(bRet);
+		
+		byte byteValue = -3;
+		byteValue >>>= 2; // -1 signed bit is not changged.
+		System.out.println(byteValue);
 	}
 }
